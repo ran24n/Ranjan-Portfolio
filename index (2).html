@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ranjan Parajuli - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Ranjan Parajuli
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ranzanparajuli@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +817026391390
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">Skills</a>
+          <a class="topmenu" href="#about-me">Projects</a>
+          <a class="topmenu" href="#about-me">Recommendations</a>
+
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/IMG_7230 (2).jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ranjan Parajuli! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            Aspiring Full Stack Developer with a background in Information & Electronic Engineering and 4+ years of professional experience in Japan as a Construction Manager, now transitioning into tech.
+             Currently pursuing an MCA and completing IBM certifications in Full Stack Development and Data Science. Skilled in problem-solving, project management, 
+             and building scalable web and data-driven applications. Eager to contribute to a development team and grow through hands-on experience.
+          </p>
+          
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://cdn.pixabay.com/photo/2022/03/21/21/44/file-7084005_1280.png"/>
+          <h6>CSS</h6>
+          <p>Basic(&lt;1 year)</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>Basic(&lt;1 year)</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/16/23/alphabet-150811_1280.png"/>
+            <h6>C</h6>
+            <p>Intermediate (1+ year)</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn.pixabay.com/photo/2024/03/31/02/11/python-8665904_1280.png"/>
+            <h6>Python</h6>
+            <p>Intermediate (1+ year)</p>
+        </div> 
+
+        <div class="skill">
+            <img src="https://cdn.pixabay.com/photo/2024/06/26/08/10/business-8854289_640.png"/>
+            <h6>Project Management and Soft Skills</h6>
+            <p>4+ years</p>
+        </div>
+
+          
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Simple Interest Calculator</h3>
+            <ul>
+              <li>Built a simple, interactive calculator using HTML, CSS, and JavaScript to quickly compute interest on a principal amount.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Survey Form</h3>
+            <ul>
+              <li>Designed a responsive survey form using HTML and CSS to collect user feedback efficiently.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Video Compilation Webpage and more</h3>
+            <ul>
+              <li>Developed a clean and responsive webpage to showcase a collection of videos using HTML, CSS, and JavaScript.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Ranjan demonstrates a rare blend of engineering discipline and technical curiosity. His ability to quickly grasp full stack development concepts, paired with his project leadership experience, makes him a standout professional.
+            <span>&#8221;</span>
+        </div>
+      
+        <div class="recommendation">
+            <span>&#8220;</span>
+            With a strong foundation in project management and a growing command of web technologies, Ranjan brings both structure and innovation to his work. He’s reliable, analytical, and eager to contribute meaningfully.
+            <span>&#8221;</span>
+        </div>
+        
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Ranjan’s transition into tech is backed by a solid academic background and real-world leadership experience. His dedication to learning, coupled with strong interpersonal skills, positions him well for any development team.
+            <span>&#8221;</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for your recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
